@@ -1,0 +1,157 @@
+@font-face {
+  font-family: "标题";
+  src: url("../font/标题.ttf");
+}
+
+@font-face {
+  font-family: "字体";
+  src: url("../font/禹卫书法行书简体.ttfs");
+}
+
+@keyframes Aappear {
+  0% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  100%{
+    opacity: 0;
+  }
+}
+
+@keyframes appear {
+  0% {
+    width: 50px;
+    height: 50px;
+    opacity: 0;
+  }
+  100% {
+    width: 70px;
+    height: 70px;
+    opacity: 1;
+  }
+}
+
+
+*{
+  padding: 0%;
+  margin: 0%;
+}
+
+#Sunimage{
+  z-index: 3;
+}
+
+#Sunshine_Open{
+  z-index: 4;
+}
+
+#Main{
+  /* width: 100vw; */
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#SunshineC{
+  width: 50px;
+  height: 50px;
+  animation: Aappear 3s infinite;
+  cursor: pointer;
+}
+
+#Sunshine_Lv{
+  width: 70px;
+  height: 70px;
+  animation: appear 2s;
+  /* animation-direction: alternate; */
+  cursor: pointer;
+}
+
+
+#Sunshine_Lan{
+  width: 70px;
+  height: 70px;
+  animation: appear 2s;
+  /* animation-direction: alternate; */
+  cursor: pointer;
+}
+
+#Sunshine_Zi{
+  width: 70px;
+  height: 70px;
+  animation: appear 2s;
+  /* animation-direction: alternate; */
+  cursor: pointer;
+}
+
+#Sunshine_Fen{
+  width: 70px;
+  height: 70px;
+  animation: appear 2s;
+  /* animation-direction: alternate; */
+  cursor: pointer;
+}
+
+#Sunshine_Open{
+  width: 70px;
+  height: 70px;
+  animation: appear 2s;
+  /* animation-direction: alternate; */
+}
+
+#Lv{
+  margin-top: 50vh;
+  position: absolute;
+  width: 50vw;
+  height: 50vh;
+  border-radius: 15px 50px 30px 5px;
+  -webkit-backdrop-filter: blur(50px);
+  text-align: center;
+  line-height: 50vh;
+  font-family:标题;
+  font-size: 50px;
+}
+
+#Lan{
+  position: absolute;
+  width: 50vw;
+  height: 50vh;
+  border-radius: 15px 50px 30px 5px;
+  -webkit-backdrop-filter: blur(50px);
+  text-align: center;
+  line-height: 50vh;
+  font-family:标题;
+  font-size: 50px;
+}
+
+#Zi{
+  margin-left: 50vw;
+  position: absolute;
+  width: 50vw;
+  height: 50vh;
+  border-radius:  30px 5px 15px 50px;
+  -webkit-backdrop-filter: blur(50px);
+  text-align: center;
+  line-height: 50vh;
+  font-family:标题;
+  font-size: 50px;
+}
+
+#Fen{
+  margin-top: 50vh;
+  margin-left: 50vw;
+  position: absolute;
+  width: 50vw;
+  height: 50vh;
+  border-radius:  30px 5px 15px 50px;
+  -webkit-backdrop-filter: blur(50px);
+  text-align: center;
+  line-height: 50vh;
+  font-family:标题;
+  font-size: 50px;
+}
